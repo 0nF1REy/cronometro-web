@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- ================ -->
+    <title>Cronômetro web</title>
+    <!-- ==== META ==== -->
+    <meta charset="UTF-8">
+    <meta name="Author" content="Alan Ryan da Silva Domingues">
+    <meta name="keywords" content="Cronômetro">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ==== OPEN GRAPH ==== -->
+    <meta property="og:title" content="Cronômetro web">
+    <meta property="og:image" content="./assets/img/pagina-principal.png">
+    <meta property="og:type" content="website">
+    <!-- ==== FAVICON and ICONS ==== -->
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./assets/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="./assets/icons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./assets/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="./assets/icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./assets/icons/apple-touch-icon-152x152.png" />
+    <!-- ==== MICROSOFT TILE ==== -->
+    <meta name="application-name" content="Cronômetro web" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="./assets/icons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="./assets/icons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="./assets/icons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="./assets/icons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="./assets/icons/mstile-310x310.png" />
+    <!-- ==== CSS and SCRIPT ==== -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <link rel="stylesheet" href="./styles/keyframes.css">
+    <link rel="stylesheet" href="./styles/font.css">
+    <link rel="stylesheet" href="./assets/icons/fontawesome/css/all.min.css">
+    <script src="./scripts/script.js" defer></script>
+    <!-- ================ -->
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Cronômetro <i class="fa-solid fa-stopwatch"></i></h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="timerDisplay">
+                00 : 00 : 00 : 000
+            </div>
+            <div class="buttons">
+                <button id="resetTimer" class="hidden-button"><i class="fa-solid fa-arrow-rotate-left"></i></button>
+                <button id="startPauseTimer"><i class="fa-solid fa-play"></i></button>
+            </div>
+        </div>
+    </main>
+    <div class="cron-wrapper">
+        <img src="./assets/svg/cronometro.svg" class="cron-movi" alt="cronometro">
+    </div>
+    <footer>
+        <div>
+            <p>©2024 Alan Ryan</p>
+        </div>
+    </footer>
+</body>
+
+</html>

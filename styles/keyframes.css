@@ -1,0 +1,186 @@
+@keyframes particleEffect {
+    0% {
+        opacity: 0.8;
+        transform: scale(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+
+@keyframes particleEffectClick {
+    0% {
+        transform: translate(-100%, -100%) scale(0);
+    }
+
+    100% {
+        transform: translate(-100%, -100%) scale(9);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.02);
+    }
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes textGlow {
+
+    0%,
+    100% {
+        text-shadow: 0 0 8px rgba(255, 255, 255, 0.5), 0 0 12px rgba(255, 255, 255, 0.3);
+    }
+
+    50% {
+        text-shadow: 0 0 12px rgba(255, 255, 255, 0.6), 0 0 18px rgba(255, 255, 255, 0.4);
+    }
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 20% 50%;
+    }
+
+    50% {
+        background-position: 80% 50%;
+    }
+
+    100% {
+        background-position: 20% 50%;
+    }
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 15px rgba(173, 216, 230, 0.2);
+    }
+
+    100% {
+        box-shadow: 0 0 20px rgba(173, 216, 230, 0.5);
+    }
+}
+
+@keyframes cronMovi {
+    0% {
+        left: -100px;
+        top: 50%;
+    }
+
+    25% {
+        left: 50%;
+        top: 40%;
+    }
+
+    50% {
+        left: 100%;
+        top: 50%;
+    }
+
+    75% {
+        left: 50%;
+        top: 60%;
+    }
+
+    100% {
+        left: -100px;
+        top: 50%;
+    }
+}
+
+@keyframes starryBackground {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -100px -100px;
+    }
+}
+
+@keyframes pulse-2 {
+
+    0%,
+    100% {
+        text-shadow:
+            2px 2px 4px rgba(0, 0, 0, 0.4),
+            4px 4px 8px rgba(0, 0, 0, 0.3),
+            6px 6px 12px rgba(0, 0, 0, 0.2);
+        transform: scale(1);
+    }
+
+    50% {
+        text-shadow:
+            3px 3px 6px rgba(0, 0, 0, 0.6),
+            6px 6px 12px rgba(0, 0, 0, 0.5),
+            8px 8px 16px rgba(0, 0, 0, 0.4);
+        transform: scale(1.05);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(100vw);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100vw);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,14 @@
+@font-face {
+    font-family: red-hat;
+    src: url('../assets/font/red-hat-i.ttf');
+}
+
+@font-face {
+    font-family: patopian-1986;
+    src: url('../assets/font/patopian-1986.ttf');
+}
+
+@font-face {
+    font-family: gamelia;
+    src: url('../assets/font/gamelia.otf') format('truetype');
+}
